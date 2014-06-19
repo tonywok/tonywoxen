@@ -85,6 +85,7 @@ node default {
   }
 
   # additional modules
+  include macvim
   include hipchat
   include alfred
   include gitx::dev
