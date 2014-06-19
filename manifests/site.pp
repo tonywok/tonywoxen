@@ -84,6 +84,11 @@ node default {
     ]:
   }
 
+  # additional modules
+  include hipchat
+  include alfred
+  include gitx::dev
+
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
     target => $boxen::config::repodir

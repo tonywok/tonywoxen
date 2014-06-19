@@ -59,3 +59,7 @@ github "xquartz",     "1.1.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "hipchat", "1.1.3"
+github "alfred", "1.2.0"
+github "gitx", "1.2.0"
