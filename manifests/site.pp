@@ -89,6 +89,8 @@ node default {
   include hipchat
   include alfred
   include gitx::dev
+  include iterm2::dev
+  include iterm2::colors::arthur
 
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
