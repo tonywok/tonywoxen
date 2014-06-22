@@ -101,6 +101,10 @@ node default {
   include dash
   include flux
   include screenhero
+  include vlc
+  include virtualbox
+  include seil
+  include keepassx
 
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
