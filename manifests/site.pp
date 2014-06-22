@@ -87,7 +87,6 @@ node default {
   # not working:
   #  incude utorrent
   #  include airfoil
-  #  include spotify
 
   # additional modules
   include macvim
@@ -105,6 +104,7 @@ node default {
   include virtualbox
   include seil
   include keepassx
+  include spotify
 
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,

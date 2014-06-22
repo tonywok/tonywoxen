@@ -99,6 +99,11 @@ GITHUBTARBALL
     openssl (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-osx
+  specs:
+    osx (2.7.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-phantomjs
   specs:
     phantomjs (2.3.0)
@@ -169,6 +174,11 @@ GITHUBTARBALL
     module-data (0.0.3)
 
 GITHUBTARBALL
+  remote: rogerhub/puppet-spotify
+  specs:
+    spotify (1.0.2)
+
+GITHUBTARBALL
   remote: tonywok/puppet-seil
   specs:
     seil (1.2.3)
@@ -196,6 +206,7 @@ DEPENDENCIES
   nginx (= 1.4.3)
   nodejs (= 3.7.0)
   openssl (= 1.0.0)
+  osx (= 2.7.0)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
   postgresql (= 3.0.0)
@@ -203,6 +214,7 @@ DEPENDENCIES
   ruby (= 8.0.4)
   screenhero (= 1.0.1)
   seil (= 1.2.3)
+  spotify (= 1.0.2)
   stdlib (= 4.2.1)
   sudo (= 1.0.0)
   sysctl (= 1.0.1)

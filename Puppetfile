@@ -63,7 +63,6 @@ github "xquartz",     "1.1.1"
 # not working:
 #   github "utorrent", "1.1.1"
 #   github "airfoil", "0.0.1"
-#   github "spotify", "1.0.1"
 
 github "macvim", "1.0.0"
 github "hipchat", "1.1.3"
@@ -80,3 +79,5 @@ github "vlc", "1.1.0"
 github "virtualbox", "1.0.12"
 github "seil", "1.2.3", :repo => "tonywok/puppet-seil"
 github "keepassx", "1.0.0"
+github "osx", "2.7.0"
+github "spotify", "1.0.2", :repo => "rogerhub/puppet-spotify"
