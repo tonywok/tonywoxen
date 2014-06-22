@@ -57,27 +57,10 @@ github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.1.1"
 
-# Optional/custom modules. There are tons available at
-# https://github.com/boxen.
+# Custom modules
 
-# not working:
-#   github "utorrent", "1.1.1"
-#   github "airfoil", "0.0.1"
-
-github "macvim", "1.0.0"
-github "hipchat", "1.1.3"
-github "alfred", "1.2.0"
-github "gitx", "1.2.0"
-github "iterm2", "1.1.1"
-github "sysctl", "1.0.1"
-github "postgresql", "3.0.0"
-github "dropbox", "1.2.0"
-github "dash", "1.0.0"
-github "flux", "1.0.1"
-github "screenhero", "1.0.1"
-github "vlc", "1.1.0"
-github "virtualbox", "1.0.12"
-github "seil", "1.2.3", :repo => "tonywok/puppet-seil"
-github "keepassx", "1.0.0"
-github "osx", "2.7.0"
-github "spotify", "1.0.2", :repo => "rogerhub/puppet-spotify"
+github "sysctl",      "1.0.1"
+github "postgresql",  "3.0.0"
+github "virtualbox",  "1.0.12"
+github "osx",         "2.7.0"
+github "bash",        "1.1.0"

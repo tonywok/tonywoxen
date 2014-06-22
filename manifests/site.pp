@@ -84,60 +84,6 @@ node default {
     ]:
   }
 
-  # not working:
-  #  incude utorrent
-  #  include airfoil
-
-  # additional modules
-  include macvim
-  include hipchat
-  include alfred
-  include gitx::dev
-  include iterm2::dev
-  include iterm2::colors::arthur
-  include postgresql
-  include dropbox
-  include dash
-  include flux
-  include screenhero
-  include vlc
-  include virtualbox
-  include seil
-  include keepassx
-  include spotify
-
-  # osx preferences
-  #
-  # track pad / keys
-  include osx::global::key_repeat_delay
-  include osx::global::key_repeat_rate
-  include osx::global::expand_save_dialog
-  include osx::global::tap_to_click
-  # dock
-  include osx::dock::2d
-  include osx::dock::autohide
-  include osx::dock::clear_dock
-  include osx::dock::hide_indicator_lights
-  class { "osx::dock::position":
-    position => "right"
-  }
-  # finder
-  include osx::finder::empty_trash_securely
-  include osx::finder::unhide_library
-  include osx::finder::show_hidden_files
-  include osx::finder::enable_quicklook_text_selection
-  # misc
-  include osx::universal_access::ctrl_mod_zoom
-  include osx::no_network_dsstores
-  include osx::software_update
-  osx::recovery_message {
-    "If this mac is found, please call/email 3302066008/tonywok@gmail.com":
-  }
-  osx::dock::hot_corner { 'Show the desktop':
-    position => 'Top Left',
-    action => 'Desktop'
-  }
-
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
     target => $boxen::config::repodir
