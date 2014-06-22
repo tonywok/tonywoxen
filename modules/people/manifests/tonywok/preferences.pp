@@ -28,9 +28,7 @@ class people::tonywok::preferences {
   include osx::universal_access::ctrl_mod_zoom
   include osx::no_network_dsstores
   include osx::software_update
-  osx::recovery_message {
-    "Tony Schneider / (330) 206-6008 / tonywok@gmail.com / @tonywok":
-  }
+  osx::recovery_message { 'If this Mac is found, please call +1.330.206.6008': }
   osx::dock::hot_corner { 'Show the desktop':
     position => 'Top Left',
     action => 'Desktop'
