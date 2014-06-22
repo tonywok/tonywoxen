@@ -9,6 +9,11 @@ GITHUBTARBALL
     boxen (3.6.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-dash
+  specs:
+    dash (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (1.0.1)
@@ -17,6 +22,11 @@ GITHUBTARBALL
   remote: boxen/puppet-dropbox
   specs:
     dropbox (1.2.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-flux
+  specs:
+    flux (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-foreman
@@ -109,6 +119,16 @@ GITHUBTARBALL
     ruby (8.0.4)
 
 GITHUBTARBALL
+  remote: boxen/puppet-screenhero
+  specs:
+    screenhero (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-spotify
+  specs:
+    spotify (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
@@ -141,8 +161,10 @@ GITHUBTARBALL
 DEPENDENCIES
   alfred (= 1.2.0)
   boxen (= 3.6.1)
+  dash (= 1.0.0)
   dnsmasq (= 1.0.1)
   dropbox (= 1.2.0)
+  flux (= 1.0.1)
   foreman (= 1.2.0)
   gcc (= 2.0.101)
   git (= 2.4.0)
@@ -163,6 +185,8 @@ DEPENDENCIES
   postgresql (= 3.0.0)
   repository (= 2.3.0)
   ruby (= 8.0.4)
+  screenhero (= 1.0.1)
+  spotify (= 1.0.1)
   stdlib (= 4.2.1)
   sudo (= 1.0.0)
   sysctl (= 1.0.1)

@@ -86,6 +86,8 @@ node default {
 
   # not working:
   #  incude utorrent
+  #  include airfoil
+  #  include spotify
 
   # additional modules
   include macvim
@@ -96,6 +98,9 @@ node default {
   include iterm2::colors::arthur
   include postgresql
   include dropbox
+  include dash
+  include flux
+  include screenhero
 
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,

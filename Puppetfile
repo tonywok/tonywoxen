@@ -62,6 +62,8 @@ github "xquartz",     "1.1.1"
 
 # not working:
 #   github "utorrent", "1.1.1"
+#   github "airfoil", "0.0.1"
+#   github "spotify", "1.0.1"
 
 github "macvim", "1.0.0"
 github "hipchat", "1.1.3"
@@ -71,3 +73,6 @@ github "iterm2", "1.1.1"
 github "sysctl", "1.0.1"
 github "postgresql", "3.0.0"
 github "dropbox", "1.2.0"
+github "dash", "1.0.0"
+github "flux", "1.0.1"
+github "screenhero", "1.0.1"
