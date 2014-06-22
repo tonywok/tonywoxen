@@ -84,6 +84,9 @@ node default {
     ]:
   }
 
+  # not working:
+  #  incude utorrent
+
   # additional modules
   include macvim
   include hipchat
@@ -91,6 +94,8 @@ node default {
   include gitx::dev
   include iterm2::dev
   include iterm2::colors::arthur
+  include postgresql
+  include dropbox
 
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,

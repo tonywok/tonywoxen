@@ -60,8 +60,14 @@ github "xquartz",     "1.1.1"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
+# not working:
+#   github "utorrent", "1.1.1"
+
 github "macvim", "1.0.0"
 github "hipchat", "1.1.3"
 github "alfred", "1.2.0"
 github "gitx", "1.2.0"
 github "iterm2", "1.1.1"
+github "sysctl", "1.0.1"
+github "postgresql", "3.0.0"
+github "dropbox", "1.2.0"
