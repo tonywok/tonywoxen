@@ -23,4 +23,5 @@ class people::tonywok::applications {
   include virtualbox
   include bash
   include bash::completion
+  class { 'vagrant': }
 }
