@@ -24,4 +24,20 @@ class people::tonywok::applications {
   include bash
   include bash::completion
   class { 'vagrant': }
+  include qt
+  include skype
+  include java
+  include tunnelblick
+  include foreman
+  include phantomjs
+  include flux
+  include redis
+  include hub
+  include chrome
+  include heroku
+  include sizeup
+  include imagemagick
+  include ctags
+  include caffeine
+  include googledrive
 }
