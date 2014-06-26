@@ -3,22 +3,14 @@ class people::tonywok::applications {
   #  incude utorrent
   #  include airfoil
   
-  # additional modules
+  # Dev
   #
   include macvim
-  include hipchat
-  include alfred
   include gitx::dev
   include iterm2::dev
   include iterm2::colors::arthur
-  include dropbox
   include dash
-  include flux
   include screenhero
-  include vlc
-  include seil
-  include keepassx
-  include spotify
   include postgresql
   include virtualbox
   include bash
@@ -30,14 +22,28 @@ class people::tonywok::applications {
   include tunnelblick
   include foreman
   include phantomjs
-  include flux
   include redis
   include hub
-  include chrome
   include heroku
-  include sizeup
   include imagemagick
   include ctags
-  include caffeine
+  include chrome
+
+  # Productivity
+  #
+  include hipchat
+  include alfred
+  include dropbox
+  include flux
+  include vlc
+  include seil
+  include keepassx
+  include flux
   include googledrive
+  include caffeine
+  include sizeup
+
+  # Entertainment
+  #
+  include spotify
 }
