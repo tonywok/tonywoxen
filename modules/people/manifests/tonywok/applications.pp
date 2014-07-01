@@ -40,7 +40,6 @@ class people::tonywok::applications {
   include flux
   include googledrive
   include caffeine
-  include sizeup
 
   include seil
   include seil::login_item
