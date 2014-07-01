@@ -15,4 +15,5 @@ group :development do
   gem "aws-sdk", "~> 1.42"
   gem "net-ssh"
   gem "rbvmomi"
+  gem "CFPropertyList", ">= 2.2.6"
 end

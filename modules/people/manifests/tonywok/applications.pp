@@ -36,12 +36,17 @@ class people::tonywok::applications {
   include dropbox
   include flux
   include vlc
-  include seil
   include keepassx
   include flux
   include googledrive
   include caffeine
   include sizeup
+
+  include seil
+  include seil::login_item
+  seil::bind { 'keyboard bindings':
+    mappings => { 'capslock' => 36 }
+  }
 
   # Entertainment
   #
