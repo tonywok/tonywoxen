@@ -5,7 +5,7 @@ class people::tonywok::preferences {
   include osx::global::key_repeat_rate
   include osx::global::expand_save_dialog
   include osx::global::tap_to_click
-  
+
   # dock
   #
   include osx::dock::2d
@@ -15,14 +15,14 @@ class people::tonywok::preferences {
   class { "osx::dock::position":
     position => "right"
   }
-  
+
   # finder
   #
   include osx::finder::empty_trash_securely
   include osx::finder::unhide_library
   include osx::finder::show_hidden_files
   include osx::finder::enable_quicklook_text_selection
-  
+
   # misc
   #
   include osx::universal_access::ctrl_mod_zoom

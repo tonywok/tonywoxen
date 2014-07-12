@@ -2,7 +2,7 @@ class people::tonywok::applications {
   # not working:
   #  incude utorrent
   #  include airfoil
-  
+
   # Dev
   #
   include macvim
@@ -40,6 +40,7 @@ class people::tonywok::applications {
   include flux
   include googledrive
   include caffeine
+  include irssi
 
   include seil
   include seil::login_item
