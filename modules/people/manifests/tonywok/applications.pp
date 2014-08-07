@@ -28,6 +28,7 @@ class people::tonywok::applications {
   include imagemagick
   include ctags
   include chrome
+  include pow
 
   # Productivity
   #
